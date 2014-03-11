@@ -13,8 +13,8 @@ BIN_DIR = ../bin
 
 YACC = bison
 LEX  = lex
-LINK = clang
-CXX  = clang
+LINK = g++
+CXX  = g++
 NVCC = g++
 
 CUFLAGS  = -g -O3
